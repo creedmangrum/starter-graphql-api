@@ -1,5 +1,9 @@
 # README #
 
+This is a simple Express Server that has a basic GraphQL API and Mongoose setup to interface with MongoDB.
+
+## Setup ##
+
 clone this repository
 
 	cd path-to-repo
@@ -36,10 +40,4 @@ create a user
 		}
 	}
 	
-let me know if this works.
-		
-
-### What is this repository for? ###
-
-* This is the api for all wyroo apps.
-* 0.0.0
+let me know if this works or doesn't work. happy to help.
