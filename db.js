@@ -8,7 +8,7 @@ const state = {
 }
 
 if (!process.env.MONGODB_URI) {
-  process.env.MONGODB_URI = 'mongodb://siestaderek:SpearFish1990!@ds127842.mlab.com:27842/wyroo'
+  process.env.MONGODB_URI = 'mongodb://<mongodb-user-name>:<mongodb-pass>@ds127842.mlab.com:27842/<db-name>'
 }
 
 exports.connect = function(done) {
