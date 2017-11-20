@@ -1,0 +1,23 @@
+{
+  "name": "roodat-api",
+  "version": "1.0.0",
+  "description": "RooDat API",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.3",
+    "graphql-server-express": "^1.0.0",
+    "mongoose": "^4.10.8",
+    "request": "^2.79.0",
+    "response": "^0.18.0"
+  }
+}
