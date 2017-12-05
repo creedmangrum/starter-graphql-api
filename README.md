@@ -6,8 +6,10 @@ This is a simple Express Server that has a basic GraphQL API and Mongoose setup 
 
 clone this repository
 
+you'll have to update `db.js` to point to your mongodb address. 
+
 	cd path-to-repo
-    npm i
+        npm i
 	npm run start
 	
 let me know if you run into any errors starting there. you will likely get some console warnings with regards to mongoose and mongo, but you should ultimately see a message saying "we're connected"
